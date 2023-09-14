@@ -1,0 +1,4 @@
+wait(0.1)local Event = game:GetService("ReplicatedStorage").ReplicatedModules.KnitPackage.Knit.Services.MatchmakeService.RF.RequestPrivateLobby
+wait(0.1)Event:InvokeServer()
+wait(0.1)Event:InvokeServer()
+wait(0.1)Event:InvokeServer()
