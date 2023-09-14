@@ -1,0 +1,11 @@
+wait(0.1)print("second stage")
+wait(0.1)local Event3 = game:GetService("ReplicatedStorage").ReplicatedModules.KnitPackage.Knit.Services.MatchmakeService.RF.StartQueue
+wait(0.1)local Event2 = game:GetService("ReplicatedStorage").Remotes.TeamEvent
+wait(0.1)local A_1 = "CreateTeam"
+wait(0.1)local A_2 = 
+{
+	["GameType"] = "Casual", 
+	["GameMode"] = "Wavemode"
+}
+wait(0.1)Event2:FireServer(A_1, A_2)
+wait(0.1)Event3:InvokeServer()
