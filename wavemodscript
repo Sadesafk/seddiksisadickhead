@@ -1,0 +1,24 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Sadesafk/seddiksisadickhead/main/changedorionuicool')))()
+local Window = OrionLib:MakeWindow({Name = "Helloo", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+    Name = "The links",
+	PremiumOnly = false,
+    Icon = "rbxassetid://13321848320",
+})
+local Section = Tab:AddSection({
+	Name = "Link for discord"
+})
+Tab:AddLabel("Join Discord for all instructions on how to use script.")
+Tab:AddButton({
+    Name = "Discord link for getting script and instructions.",
+    Callback = function()
+        setclipboard(tostring("https://discord.gg/kgH7aSN2v"))
+        OrionLib:MakeNotification({
+            Name = "Discord link copied",
+            Content = "Look in announcements",
+            Image = "rbxassetid://6474802592",
+            Time = 5
+        })
+    end
+})
+OrionLib:Init()
