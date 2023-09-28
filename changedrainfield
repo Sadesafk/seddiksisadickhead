@@ -26,7 +26,7 @@ local RayfieldLibrary = {
 			TextColor = Color3.fromRGB(240, 240, 240),
 
 			Background = Color3.fromRGB(25, 25, 25),
-			Topbar = Color3.fromRGB(34, 34, 34),
+			Topbar = Color3.fromRGB(70, 170, 165),
 			Shadow = Color3.fromRGB(20, 20, 20),
 
 			NotificationBackground = Color3.fromRGB(20, 20, 20),
@@ -57,7 +57,7 @@ local RayfieldLibrary = {
 			ToggleDisabledOuterStroke = Color3.fromRGB(65, 65, 65),
 
 			InputBackground = Color3.fromRGB(30, 30, 30),
-			InputStroke = Color3.fromRGB(65, 65, 65),
+			InputStroke = Color3.fromRGB(70, 170, 165),
 			PlaceholderColor = Color3.fromRGB(178, 178, 178)
 		},
 		Light = {
