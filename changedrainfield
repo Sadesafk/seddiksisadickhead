@@ -25,7 +25,7 @@ local RayfieldLibrary = {
 			TextFont = "Default", -- Default will use the various font faces used across Rayfield
 			TextColor = Color3.fromRGB(240, 240, 240),
 
-			Background = Color3.fromRGB(25, 25, 25),
+			Background = Color3.fromRGB(70, 170, 165),
 			Topbar = Color3.fromRGB(70, 170, 165),
 			Shadow = Color3.fromRGB(70, 170, 165),
 
@@ -46,7 +46,7 @@ local RayfieldLibrary = {
 
 			SliderBackground = Color3.fromRGB(43, 105, 159),
 			SliderProgress = Color3.fromRGB(43, 105, 159),
-			SliderStroke = Color3.fromRGB(48, 119, 177),
+			SliderStroke = Color3.fromRGB(70, 170, 165),
 
 			ToggleBackground = Color3.fromRGB(30, 30, 30),
 			ToggleEnabled = Color3.fromRGB(0, 146, 214),
