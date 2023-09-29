@@ -25,7 +25,7 @@ local RayfieldLibrary = {
 			TextFont = "Default", -- Default will use the various font faces used across Rayfield
 			TextColor = Color3.fromRGB(240, 240, 240),
 
-			Background = Color3.fromRGB(70, 170, 165),
+			Background = Color3.fromRGB(25, 25, 25),
 			Topbar = Color3.fromRGB(70, 170, 165),
 			Shadow = Color3.fromRGB(70, 170, 165),
 
@@ -1803,7 +1803,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 				DropdownOption.Visible = true
 
 				if DropdownSettings.CurrentOption == Option then
-					DropdownOption.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+					DropdownOption.BackgroundColor3 = Color3.fromRGB(70, 170, 165)
 				end
 
 				DropdownOption.BackgroundTransparency = 1
