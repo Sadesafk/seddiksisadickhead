@@ -25,21 +25,21 @@ local RayfieldLibrary = {
 			TextFont = "Default", -- Default will use the various font faces used across Rayfield
 			TextColor = Color3.fromRGB(240, 240, 240),
 
-			Background = Color3.fromRGB(25, 25, 25),
+			Background = Color3.fromRGB(70, 170, 165),
 			Topbar = Color3.fromRGB(70, 170, 165),
 			Shadow = Color3.fromRGB(70, 170, 165),
 
 			NotificationBackground = Color3.fromRGB(20, 20, 20),
 			NotificationActionsBackground = Color3.fromRGB(230, 230, 230),
 
-			TabBackground = Color3.fromRGB(80, 80, 80),
+			TabBackground = Color3.fromRGB(70, 170, 165),
 			TabStroke = Color3.fromRGB(70, 170, 165),
 			TabBackgroundSelected = Color3.fromRGB(210, 210, 210),
 			TabTextColor = Color3.fromRGB(240, 240, 240),
 			SelectedTabTextColor = Color3.fromRGB(50, 50, 50),
 
-			ElementBackground = Color3.fromRGB(35, 35, 35),
-			ElementBackgroundHover = Color3.fromRGB(40, 40, 40),
+			ElementBackground = Color3.fromRGB(70, 170, 165),
+			ElementBackgroundHover = Color3.fromRGB(70, 170, 165),
 			SecondaryElementBackground = Color3.fromRGB(25, 25, 25), -- For labels and paragraphs
 			ElementStroke = Color3.fromRGB(70, 170, 165),
 			SecondaryElementStroke = Color3.fromRGB(40, 40, 40), -- For labels and paragraphs
