@@ -12,7 +12,7 @@ Tab:AddLabel("Join Discord for all instructions on how to use script.")
 Tab:AddButton({
     Name = "Discord link for getting script and instructions.",
     Callback = function()
-        setclipboard(tostring("https://discord.gg/kgH7aSN2v"))
+        setclipboard(tostring("https://discord.gg/vMHCMwz2W"))
         OrionLib:MakeNotification({
             Name = "Discord link copied",
             Content = "Look in announcements",
@@ -33,5 +33,4 @@ Tab:AddButton({
         })
     end
 })
-
 OrionLib:Init()
